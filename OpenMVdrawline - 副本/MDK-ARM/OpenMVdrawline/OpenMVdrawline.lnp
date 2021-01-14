@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"openmvdrawline\startup_stm32f407xx.o"
+"openmvdrawline\main.o"
+"openmvdrawline\gpio.o"
+"openmvdrawline\usart.o"
+"openmvdrawline\stm32f4xx_it.o"
+"openmvdrawline\stm32f4xx_hal_msp.o"
+"openmvdrawline\stm32f4xx_hal_tim.o"
+"openmvdrawline\stm32f4xx_hal_tim_ex.o"
+"openmvdrawline\stm32f4xx_hal_uart.o"
+"openmvdrawline\stm32f4xx_hal_rcc.o"
+"openmvdrawline\stm32f4xx_hal_rcc_ex.o"
+"openmvdrawline\stm32f4xx_hal_flash.o"
+"openmvdrawline\stm32f4xx_hal_flash_ex.o"
+"openmvdrawline\stm32f4xx_hal_flash_ramfunc.o"
+"openmvdrawline\stm32f4xx_hal_gpio.o"
+"openmvdrawline\stm32f4xx_hal_dma_ex.o"
+"openmvdrawline\stm32f4xx_hal_dma.o"
+"openmvdrawline\stm32f4xx_hal_pwr.o"
+"openmvdrawline\stm32f4xx_hal_pwr_ex.o"
+"openmvdrawline\stm32f4xx_hal_cortex.o"
+"openmvdrawline\stm32f4xx_hal.o"
+"openmvdrawline\stm32f4xx_hal_exti.o"
+"openmvdrawline\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "OpenMVdrawline\OpenMVdrawline.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OpenMVdrawline.map" -o OpenMVdrawline\OpenMVdrawline.axf

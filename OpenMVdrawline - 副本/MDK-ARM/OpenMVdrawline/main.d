@@ -1,0 +1,33 @@
+openmvdrawline\main.o: ../Core/Src/main.c
+openmvdrawline\main.o: ../Core/Inc/main.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+openmvdrawline\main.o: ../Core/Inc/stm32f4xx_hal_conf.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Include/core_cm4.h
+openmvdrawline\main.o: D:\Program Files\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+openmvdrawline\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+openmvdrawline\main.o: D:\Program Files\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+openmvdrawline\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+openmvdrawline\main.o: ../Core/Inc/usart.h
+openmvdrawline\main.o: ../Core/Inc/gpio.h
